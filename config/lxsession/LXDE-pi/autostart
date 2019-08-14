@@ -1,0 +1,6 @@
+@unclutter -idle 0 -root
+@xset s off
+@xset s noblank
+@xset -dpms
+@/usr/bin/chromium-browser --incognito --disable-translate --start-maximized --disable-pinch --overscroll-history-navigation=0 --kiosk file:///opt/onboard-panel/gui/index.html
+
